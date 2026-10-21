@@ -1,0 +1,47 @@
+/*Large Background Image*/
+html {
+  background: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcW11YXc5bjhqc2RwM2w2amdnem1nM24zcnlwajNwMDA5NnFoMTd4OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wODxPdYYSq31C/giphy.gif);
+  background-size: cover;
+  background-position: left;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* This is a fallback for the translucent background for older browsers */
+  background: #222;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+
+.main-paragraph {
+  width: 75%;
+}
+
+.content p span {
+  font-family: 'Lora', sans-serif;
+  font-size: 1.5rem;
+}
